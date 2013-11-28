@@ -1,0 +1,17 @@
+{
+    "type": "ROUTING_INFO",
+    "bootstrap_id": "34",
+    "node_id": "4",
+    "ip_address": "199.1.5.2",
+    "route_table":
+    [
+        {
+            "node_id": "3",
+            "ip_address": "199.1.5.3"
+        },
+        {
+            "node_id": "22",
+            "ip_address": "199.1.5.4"
+        }
+    ]
+}
