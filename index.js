@@ -16,10 +16,10 @@ for (var dev in interfaces) {
 init();
 
 function init() {
-    if (typeof argv.id === 'number') {
-        searchServer = new PeerNet(argv.id, myIP);
+    if (typeof argv.id === 'number' && typeof argv.port === 'number') {
+        searchServer = new PeerNet(argv.id, myIP, argv.port);
     } else {
-        console.log("YOU MUST ENTER AN ID");
+        console.log("YOU MUST ENTER AN ID AND PORT");
         process.exit();
     }
     if (argv.bootstrap) searchServer.joinNetwork(argv.bootstrap);
