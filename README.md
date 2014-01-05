@@ -8,7 +8,7 @@
 
 ### Specification
 
-The specification for this project is online (https://www.scss.tcd.ie/~ebarrett/Teaching/CS4032/wiki/index.php?n=Main.P2PWebSearchArchitectureSpecification-Official)[here]
+The specification for this project is online [here](https://www.scss.tcd.ie/~ebarrett/Teaching/CS4032/wiki/index.php?n=Main.P2PWebSearchArchitectureSpecification-Official)
 
 A snapshot convereted to markdown format using Pandoc is included in this repository as `spec.md`
 
